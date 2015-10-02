@@ -9,7 +9,7 @@ var main = function(){
            			var $DivToHide = $("#divider");
 
            		var st = $(this).scrollTop();
-           		$DivToHide.height(h - st);
+           		$DivToHide.height(h - st/5);
 
 
            		}).scroll();
