@@ -16,18 +16,18 @@ var main = function(){
 
            })
 
-           
+
 
 
 };
 
-$(document).keypress(function(event) {
-	if(event.which === 109) {
-
-		
-		$("#logoPic").toggle();
-	}
-
-});
+// $(document).keypress(function(event) {
+// 	if(event.which === 109) {
+//
+//
+// 		$("#logoPic").toggle();
+// 	}
+//
+// });
 
 $(document).ready(main);
